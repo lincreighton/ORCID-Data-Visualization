@@ -39,7 +39,7 @@ The first time you run the script, there are a few things you will need to do to
 * Get your ORCID API bearer token in RStudio. Follow the instructions provided in the script.
 
 Next, you will plug in your unique values to perform the search and data retrieval process. You will need to enter the following values (follow the instructions in the script):
-
+ 
 * Your working directory = the file path leading to your “data” folder where the final CSV output will be stored. The path needs to look something like this: /Users/rabun/Desktop/ORCID-Data-Visualization-main/data
 * The year you want to start searching for publications
 * Ringgold ID, GRID ID, ROR ID, Email domain(s), and Organization name - this allows the script to start by finding all ORCID records that have one or more of these values present in the Employment section of individuals’ ORCID records. For example: 
