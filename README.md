@@ -42,7 +42,7 @@ Next, you will plug in your unique values to perform the search and data retriev
 
 * Your working directory = the file path leading to your “data” folder where the final CSV output will be stored. The path needs to look something like this: /Users/rabun/Desktop/ORCID-Data-Visualization-main/data
 * The year you want to start searching for publications
-* Ringgold ID, GRID ID, ROR ID, Email domain, and Organization name - this allows the script to start by finding all ORCID records that have one or more of these values present in the Employment section of individuals’ ORCID records. For example: 
+* Ringgold ID, GRID ID, ROR ID, Email domain(s), and Organization name - this allows the script to start by finding all ORCID records that have one or more of these values present in the Employment section of individuals’ ORCID records. For example: 
    * ringgold_id <- "3427" 
    * grid_id <- "grid.266820.8" 
    * ror_id <- "https://ror.org/05nkf0n29"

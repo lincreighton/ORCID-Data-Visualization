@@ -134,7 +134,7 @@ my_year = YYYY;
 ringgold_id <- "enter your institution's ringgold" 
 grid_id <- "enter your institution's grid ID" 
 ror_id <- "enter your institution's ROR ID"
-# leave the @ off the email domain, if you want to catch subdomains (e.g. @tuj.temple.edu)
+# If your institution has multiple subdomains (e.g. @temple.edu and @tuj.temple.edu), use the main domain without the @ symbol to retrieve all subdomains (e.g. set email_domain <- "temple.edu")
 email_domain <- "enter your institution's email domain" 
 organization_name <- "enter your organization's name"
 
